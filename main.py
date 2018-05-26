@@ -9,7 +9,7 @@ def run():
 
 class MainLayout():
 
-    def addListPressed(self, instance):
+    def addListPressed(self, thinstance):
         list = MainView()
         self.layout.add_widget(list)
 
